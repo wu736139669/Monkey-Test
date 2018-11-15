@@ -4,7 +4,7 @@ import os
 import time
 
 com = atx.connect("http://localhost:8100") 
-com.start_app("com.meiyou.youzijie")
+com.start_app("com.myapp")
 print(u'开始退出登录测试')
 time.sleep(3)
 

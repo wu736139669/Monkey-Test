@@ -76,7 +76,7 @@ com = atx.connect("http://localhost:8100")
 
 ### 应用的启停
 ```
-com.start_app('com.meiyou.youzijie') # 启动柚子街app
+com.start_app('com.ash') # 启动
 com.stop_app() #停止应用
 ```
 ### 基本操作
@@ -170,7 +170,7 @@ import os
 import time
 
 com = atx.connect("http://localhost:8100") 
-com.start_app("com.meiyou.youzijie")
+com.start_app("com.app")
 print(u'开始登录测试')
 time.sleep(3)
 
@@ -211,7 +211,7 @@ import os
 import time
 
 com = atx.connect("http://localhost:8100") 
-com.start_app("com.meiyou.youzijie")
+com.start_app("com.")
 print(u'开始退出登录测试')
 time.sleep(3)
 

@@ -46,11 +46,11 @@
   if (!CGRectIntersectsRect(frame, screenFrame)) {
     return NO;
   }
-  CGPoint midPoint = [self.suggestedHitpoints.lastObject CGPointValue];
-  XCElementSnapshot *hitElement = [self hitTest:midPoint];
-  if (self == hitElement || [self._allDescendants.copy containsObject:hitElement]) {
-    return YES;
-  }
+//  CGPoint midPoint = [self.suggestedHitpoints.lastObject CGPointValue];
+//  XCElementSnapshot *hitElement = [self hitTest:midPoint];
+//  if (self == hitElement || [self._allDescendants.copy containsObject:hitElement]) {
+//    return YES;
+//  }
   FBElementHitPoint *hitPoint = [self fb_hitPoint:nil];
   if (hitPoint != nil && CGRectContainsPoint(appFrame, hitPoint.point)) {
     return YES;

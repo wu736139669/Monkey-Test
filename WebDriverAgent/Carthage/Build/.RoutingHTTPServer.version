@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "RoutingHTTPServer",
+      "hash" : "a6c5a7938e3dfa84d95580460a4f86efef60730ab1903fba9f822a686095c8dc"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "v1.0.1",
+  "iOS" : [
+    {
+      "name" : "RoutingHTTPServer",
+      "hash" : "ff3e20b196d798b8ac3624ec65da684665caa1f974aec98e3a6cb9d0e1034d11"
+    }
+  ]
+}

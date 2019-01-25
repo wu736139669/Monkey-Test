@@ -1,0 +1,6 @@
+framework module RoutingHTTPServer {
+  umbrella header "RoutingHTTPServer.h"
+
+  export *
+  module * { export * }
+}
